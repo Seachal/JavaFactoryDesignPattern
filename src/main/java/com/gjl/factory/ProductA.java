@@ -1,6 +1,5 @@
 package com.gjl.factory;
 
-import com.gjl.factory.simple.Product;
 
 /**
  * @author Seachal
