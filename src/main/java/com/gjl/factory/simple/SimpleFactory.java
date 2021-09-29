@@ -9,7 +9,7 @@ import com.gjl.factory.simple.Product;
  * @author Seachal
  * @create 2019-03-16 23:23
  **/
-public class SimpleFacotry {
+public class SimpleFactory {
     public static Product getProduct(String productName){
         if("A".equals(productName)){
             return new ProductA();

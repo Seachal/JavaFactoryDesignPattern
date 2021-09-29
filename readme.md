@@ -1,0 +1,3 @@
+在简单工厂中，
+SimpleFacotry 负责了具体的创建，如果要扩展一个新产品线D，那么
+就要修改SimpleFacotry
