@@ -1,7 +1,7 @@
 package com.gjl.factory.method;
 
+import com.gjl.factory.Product;
 import com.gjl.factory.ProductB;
-import com.gjl.factory.simple.Product;
 
 /**
  * @author Seachal

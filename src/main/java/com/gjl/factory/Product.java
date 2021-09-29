@@ -1,4 +1,4 @@
-package com.gjl.factory.simple;
+package com.gjl.factory;
 
 /**
  * @author Seachal

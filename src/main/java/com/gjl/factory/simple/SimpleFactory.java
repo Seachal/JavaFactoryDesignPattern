@@ -1,9 +1,9 @@
 package com.gjl.factory.simple;
 
+import com.gjl.factory.Product;
 import com.gjl.factory.ProductA;
 import com.gjl.factory.ProductB;
 import com.gjl.factory.ProductC;
-import com.gjl.factory.simple.Product;
 
 /**
  * @author Seachal

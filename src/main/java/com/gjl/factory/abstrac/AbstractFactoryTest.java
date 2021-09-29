@@ -9,6 +9,7 @@ public class AbstractFactoryTest {
         HuaweiFactory huaweiFactory = new HuaweiFactory();
         huaweiFactory.createProductA().editProduct();
         huaweiFactory.createProductB().addProdcut();
+//        huaweiFactory.createProductC();
 
         XiaomiFactory xiaomiFactory = new XiaomiFactory();
         xiaomiFactory.createProductA().editProduct();
