@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.gjl.factory.abstrac.HuaweiFactory</OriginalElement>
+  <nodes>
+    <node x="-3.0" y="-22.0">com.gjl.factory.abstrac.IProductA</node>
+    <node x="73.0" y="228.0">com.gjl.factory.abstrac.XiaomiProductB</node>
+    <node x="-4.0" y="143.0">com.gjl.factory.abstrac.IProductB</node>
+    <node x="60.0" y="393.0">com.gjl.factory.abstrac.XiaomiFactory</node>
+    <node x="270.0" y="308.0">com.gjl.factory.abstrac.AbstractFactoryTest</node>
+    <node x="-129.0" y="228.0">com.gjl.factory.abstrac.HuaweiProductB</node>
+    <node x="-31.5" y="308.0">com.gjl.factory.abstrac.PhoneFactory</node>
+    <node x="-129.0" y="393.0">com.gjl.factory.abstrac.HuaweiFactory</node>
+    <node x="75.0" y="63.0">com.gjl.factory.abstrac.XiaomiProductA</node>
+    <node x="-129.0" y="63.0">com.gjl.factory.abstrac.HuaweiProductA</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.gjl.factory.abstrac.HuaweiFactory" target="com.gjl.factory.abstrac.PhoneFactory">
+      <point x="0.0" y="-17.5" />
+      <point x="-44.5" y="368.0" />
+      <point x="8.75" y="368.0" />
+      <point x="-40.25" y="17.5" />
+    </edge>
+    <edge source="com.gjl.factory.abstrac.XiaomiProductB" target="com.gjl.factory.abstrac.IProductB">
+      <point x="0.0" y="-17.5" />
+      <point x="162.0" y="203.0" />
+      <point x="95.0" y="203.0" />
+      <point x="33.0" y="17.5" />
+    </edge>
+    <edge source="com.gjl.factory.abstrac.XiaomiProductA" target="com.gjl.factory.abstrac.IProductA">
+      <point x="0.0" y="-17.5" />
+      <point x="165.0" y="38.0" />
+      <point x="97.5" y="38.0" />
+      <point x="33.5" y="17.5" />
+    </edge>
+    <edge source="com.gjl.factory.abstrac.XiaomiFactory" target="com.gjl.factory.abstrac.PhoneFactory">
+      <point x="0.0" y="-17.5" />
+      <point x="142.5" y="368.0" />
+      <point x="89.25" y="368.0" />
+      <point x="40.25" y="17.5" />
+    </edge>
+    <edge source="com.gjl.factory.abstrac.HuaweiProductA" target="com.gjl.factory.abstrac.IProductA">
+      <point x="0.0" y="-17.5" />
+      <point x="-37.0" y="38.0" />
+      <point x="30.5" y="38.0" />
+      <point x="-33.5" y="17.5" />
+    </edge>
+    <edge source="com.gjl.factory.abstrac.HuaweiProductB" target="com.gjl.factory.abstrac.IProductB">
+      <point x="0.0" y="-17.5" />
+      <point x="-38.0" y="203.0" />
+      <point x="29.0" y="203.0" />
+      <point x="-33.0" y="17.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="85.0" y="200.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

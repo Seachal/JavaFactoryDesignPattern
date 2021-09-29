@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.gjl.factory.simple.SimpleFacotryTest</OriginalElement>
+  <nodes>
+    <node x="332.0" y="223.0">com.gjl.factory.simple.SimpleFacotryTest</node>
+    <node x="474.0" y="114.0">com.gjl.factory.ProductC</node>
+    <node x="237.0" y="114.0">com.gjl.factory.ProductB</node>
+    <node x="0.0" y="114.0">com.gjl.factory.ProductA</node>
+    <node x="0.0" y="223.0">com.gjl.factory.simple.SimpleFacotry</node>
+    <node x="237.0" y="0.0">com.gjl.factory.simple.Product</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.gjl.factory.ProductC" target="com.gjl.factory.simple.Product">
+      <point x="0.0" y="-32.0" />
+      <point x="582.5" y="89.0" />
+      <point x="417.8333333333333" y="89.0" />
+      <point x="72.33333333333331" y="32.0" />
+    </edge>
+    <edge source="com.gjl.factory.ProductB" target="com.gjl.factory.simple.Product">
+      <point x="0.0" y="-32.0" />
+      <point x="0.0" y="32.0" />
+    </edge>
+    <edge source="com.gjl.factory.ProductA" target="com.gjl.factory.simple.Product">
+      <point x="0.0" y="-32.0" />
+      <point x="108.5" y="89.0" />
+      <point x="273.1666666666667" y="89.0" />
+      <point x="-72.33333333333331" y="32.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.4000000000000001" x="235.5714285714285" y="160.2142857142857" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

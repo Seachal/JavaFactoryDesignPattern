@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.gjl.factory.method.MethodFacotry</OriginalElement>
+  <nodes>
+    <node x="-182.0" y="347.0">com.gjl.factory.ProductC</node>
+    <node x="50.0" y="347.0">com.gjl.factory.ProductB</node>
+    <node x="282.0" y="347.0">com.gjl.factory.ProductA</node>
+    <node x="50.0" y="236.0">com.gjl.factory.simple.Product</node>
+    <node x="-48.0" y="16.0">com.gjl.factory.method.MethodFacotry</node>
+    <node x="-182.0" y="453.0">com.gjl.factory.method.MethodFacotryTest</node>
+    <node x="81.0" y="127.0">com.gjl.factory.method.ProductBFacotry</node>
+    <node x="-182.0" y="127.0">com.gjl.factory.method.ProductAFacotry</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.gjl.factory.method.ProductAFacotry" target="com.gjl.factory.method.MethodFacotry">
+      <point x="0.0" y="-32.0" />
+      <point x="-60.5" y="102.0" />
+      <point x="11.5" y="102.0" />
+      <point x="-59.5" y="30.5" />
+    </edge>
+    <edge source="com.gjl.factory.ProductC" target="com.gjl.factory.simple.Product">
+      <point x="0.0" y="-30.5" />
+      <point x="-76.0" y="322.0" />
+      <point x="85.33333333333331" y="322.0" />
+      <point x="-70.66666666666669" y="30.5" />
+    </edge>
+    <edge source="com.gjl.factory.method.ProductBFacotry" target="com.gjl.factory.method.MethodFacotry">
+      <point x="0.0" y="-32.0" />
+      <point x="202.5" y="102.0" />
+      <point x="130.5" y="102.0" />
+      <point x="59.5" y="30.5" />
+    </edge>
+    <edge source="com.gjl.factory.ProductB" target="com.gjl.factory.simple.Product">
+      <point x="0.0" y="-30.5" />
+      <point x="0.0" y="30.5" />
+    </edge>
+    <edge source="com.gjl.factory.ProductA" target="com.gjl.factory.simple.Product">
+      <point x="0.0" y="-30.5" />
+      <point x="388.0" y="322.0" />
+      <point x="226.66666666666669" y="322.0" />
+      <point x="70.66666666666669" y="30.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="87.0" y="257.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
